@@ -98,14 +98,19 @@ Scripts for fitting the 136 signal values from the jet-free model to obtain the 
 #### Notebooks
 
 The Python notebooks can be run to reproduce the key analysis figures in the paper, as indicated by their filenames:
-
+- **`PreProcessing.ipynb`**: Preprocessing scripts for the input ntuples in the following notebooks
 - **`FIG1_ggHHvsQCD_ROC.ipynb`**: ROC curves for ggHH signal vs QCD background, comparing our and established $HH\to 4b$ strategies
 - **`FIG2_2DHistForMainProcesses.ipynb`**: 2D histograms of the best-fit $(\hat{m}_{h_1}, \hat{m}_{h_2})$ for key physics processes
 - **`FIG3a_LorentzBoostTest.ipynb`**: Study model performance across multiple Lorentz boosts
 - **`FIG3b_HadronizationTest.ipynb`**: Study impact from hadronization models
 - **`AppendixFIGS4_PlotsFromTensorboard.ipynb`**: Additional plots to show training metrics from TensorBoard output
 - **`AppendixFIGS5_dcbFitSingleEvent.ipynb`**: DCB fit visualization for single events
-- **`AppendixFIGS9_BkgSplitROC.ipynb`**: ROC curves with full background components with color bands for background splitting
+- **`AppendixFIGS6_ggHHScatter.ipynb`**: Scatter plot of the corrected mass prediction points obtained with our strategy for the ggF HH signal
+- **`AppendixFIGS7_ModelCompare.ipynb`**: ROC curves comparing the performance of individual ParT models and their ensemble combination for the ggF
+$HH\to 4b$ signal against the QCD multijet background
+- **`AppendixFIGS8_QCDSpectraComparison.ipynb`**: The $(\hat{m}_{h_1}, \hat{m}_{h_2})$ spectra of QCD multijet events obtained using different mass-prediction strategies
+- **`AppendixFIGS9S10_BkgSplitROC.ipynb`**: ROC curves with full background components with color bands for background splitting
+- **`AppendixFIGS11_MaxBinBkgSplitROC.ipynb`**: ROC curves with full background components with color bands for background splitting, using a simplified mass-prediction strategy that assigns each event to the bin with the maximum discretized $p(m_{h_1},\,m_{h_2})$
 
 ## Citation
 
