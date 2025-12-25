@@ -1,6 +1,6 @@
 # jetfree-hh4b
 
-This repository contains the code and configurations for the analysis presented in [arXiv:2508.15048](https://arxiv.org/abs/2508.15048) (Potential of di-Higgs observation via a calibratable jet-free $HH\to 4b$ framework).
+This repository provides the source code and trained models associated with the study presented in [arXiv:2508.15048](https://arxiv.org/abs/2508.15048) (Potential of di-Higgs observation via a calibratable jet-free $HH\to 4b$ framework).
 
 ## Repository structure
 
@@ -106,7 +106,7 @@ The Python notebooks can be run to reproduce the key analysis figures in the pap
 - **`AppendixFIGS4_PlotsFromTensorboard.ipynb`**: Additional plots to show training metrics from TensorBoard output
 - **`AppendixFIGS5_dcbFitSingleEvent.ipynb`**: DCB fit visualization for single events
 - **`AppendixFIGS6_ggHHScatter.ipynb`**: Scatter plot of the corrected mass prediction points obtained with our strategy for the ggF HH signal
-- **`AppendixFIGS7_ModelCompare.ipynb`**: ROC curves comparing the performance of individual ParT models and their ensemble combination for the ggF
+- **`AppendixFIGS7_ModelComparison.ipynb`**: ROC curves comparing the performance of individual jet-free ParT models and their ensemble combination for the ggF
 $HH\to 4b$ signal against the QCD multijet background
 - **`AppendixFIGS8_QCDSpectraComparison.ipynb`**: The $(\hat{m}_{h_1}, \hat{m}_{h_2})$ spectra of QCD multijet events obtained using different mass-prediction strategies
 - **`AppendixFIGS9S10_BkgSplitROC.ipynb`**: ROC curves with full background components with color bands for background splitting
